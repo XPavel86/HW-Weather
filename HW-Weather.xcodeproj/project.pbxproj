@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		EF3702D02BEE38A100A80ED0 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF3702CF2BEE38A100A80ED0 /* main.swift */; };
+		EF3702D72BEE38C400A80ED0 /* WeatherData.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF3702D62BEE38C400A80ED0 /* WeatherData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,7 @@
 /* Begin PBXFileReference section */
 		EF3702CC2BEE38A100A80ED0 /* HW-Weather */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "HW-Weather"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF3702CF2BEE38A100A80ED0 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		EF3702D62BEE38C400A80ED0 /* WeatherData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 			isa = PBXGroup;
 			children = (
 				EF3702CF2BEE38A100A80ED0 /* main.swift */,
+				EF3702D62BEE38C400A80ED0 /* WeatherData.swift */,
 			);
 			path = "HW-Weather";
 			sourceTree = "<group>";
@@ -120,6 +123,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EF3702D72BEE38C400A80ED0 /* WeatherData.swift in Sources */,
 				EF3702D02BEE38A100A80ED0 /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
